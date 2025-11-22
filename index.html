@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Green Scape</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/styles.min.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+/>
+
+<!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+<div id="headerWrapper">
+	<header>
+        <img src="images/logo1x.png" alt="logo">
+		<span>Green Scape</span>
+        <button id="theButton"></button>
+	</header>
+</div><!-- end header wrapper -->
+
+    
+    
+<div id="navWrapper">
+    <nav>
+        <ul id="theNav">
+            <li><a href="#">Clients</a></li>
+            <li class="parent"><a href="#">Services</a>
+            <ul>
+                <li><a href="#">Mulch</a></li>
+                <li><a href="#">Clean Up</a></li>
+                <li><a href="#">Maintenance</a></li>
+                <li><a href="#">Planting</a></li>
+            </ul>
+            </li>
+            <li class="active"><a href="#">Home</a></li>
+            <li class="parent"><a href="#">Our Team</a>
+             <ul>
+                <li><a href="#">Peter Smith</a></li>
+                <li><a href="#">Paul Jones</a></li>
+                <li><a href="#">Mary Spencer</a></li>
+            </ul>
+            </li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</div> <!-- end nav wrapper -->
+
+<div id="mainWrapper">
+    <main>
+
+        <h1>Green Scape</h1>
+
+<!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">
+        <picture>
+            <source srcset="images/landscaper-small.jpg" media="(max-width: 640px)">
+            <source srcset="images/landscaper-medium.jpg" media="(max-width: 1280px)">
+            <img src="images/landscaper-large.jpg" alt="sliderA" width="100%" height="auto">
+        </picture>
+        <div class="overlay-text">Making yard work easier, one load at a time.</div>
+    </div> <!--end of one slide-->
+    
+ <div class="swiper-slide">
+        <picture>
+            <source srcset="images/garden-small.jpg" media="(max-width: 640px)">
+            <source srcset="images/garden-medium.jpg" media="(max-width: 1280px)">
+            <img src="images/garden-large.jpg" alt="sliderA" width="100%" height="auto">
+        </picture>
+        <div class="overlay-text">Keep your yard pristine — power through the weeds.</div>
+    </div> <!--end of one slide-->
+
+    <div class="swiper-slide">
+        <picture>
+            <source srcset="images/firewood-small.jpg" media="(max-width: 640px)">
+            <source srcset="images/firewood-medium.jpg" media="(max-width: 1280px)">
+            <img src="images/firewood-large.jpg" alt="sliderA" width="100%" height="auto">
+        </picture>
+          <div class="overlay-text">Quality firewood for your warm, cozy nights.</div>
+    </div> <!--end of one slide-->
+
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+</div>
+
+
+<!-- Start Image Clippings -->
+
+<div class="cards">
+<section>
+    <h2>Clean Up</h2>
+    <img src="images/bluelawnmower.webp" width="400" height="250" alt="blue lawn mower">
+    <img src="images/grassoverlay.webp" width="400" height="250" alt="mask">
+</section>
+
+<section>
+    <h2>Maintenance</h2>
+    <img src="images/decorativebushes.webp" width="400" height="250" alt="decorative bushes">
+    <img src="images/floweroverlay.png" width="400" height="250" alt="mask">
+</section>
+
+<section>
+    <h2>Mulch</h2>
+    <img src="images/mulch.webp" width="400" height="250" alt="mulch">
+    <img src="images/grassoverlay.webp" width="400" height="250" alt="mask">
+</section>
+
+<section>
+    <h2>Planting</h2>
+    <img src="images/gardenpath.webp" width="400" height="250" alt="gardenpath">
+    <img src="images/floweroverlay.png" width="400" height="250" alt="mask">
+</section>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<!-- start circle reviews -->
+<h1>What Customers Say</h1>
+
+<div class="reviews">
+    <section>
+        <img src="images/customer1.jpg" width="200" height="200" alt="customer one">
+        <p>We went from patchy grass and uneven walkways to a beautiful outdoor space we actually enjoy. Their team was professional, fast, and the quality is amazing.</p>
+    </section>
+     <section>
+        <img src="images/customer2.jpg" width="200" height="200" alt="customer two">
+        <p>They listened to our ideas, made smart suggestions, and delivered way more than we expected.</p>
+    </section>
+
+
+
+</div>
+
+
+
+
+
+
+
+   
+
+    </main>
+</div><!-- end main wrapper -->
+    
+<div id="footerWrapper">
+    <footer>
+        <p> &copy; 2025 &bull; Lisette Jones
+    </footer>
+</div> <!-- end footer wrapper -->
+   
+   <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+   <script src="js/scripts.js"></script>
+</body>
+</html> 

@@ -1,0 +1,25 @@
+header, nav, main {
+    max-width: 960px;
+    margin: auto;
+}
+
+/* NAVIGATION STUFF GOES HERE  */
+
+
+
+div.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+
+
+
+div.reviews {
+
+    section {
+        grid-template-columns: 200px auto;
+        column-gap: 8px;
+    } // end section
+} // end reviews
