@@ -482,7 +482,7 @@ footer a {
     border-top: 1px solid rgba(0, 0, 0, 0.2);
   }
   #theNav li.active a {
-    background-color: #509e4f;
+    background-color: #275219;
   }
   #theNav li a:hover {
     background-color: rgba(0, 0, 0, 0.3);
@@ -539,7 +539,7 @@ footer a {
     color: rgba(255, 255, 255, 0.5);
   }
   #theNav li.active a {
-    background-color: #509e4f;
+    background-color: #275219;
   }
   #theNav li ul {
     background-color: #1d512b;
