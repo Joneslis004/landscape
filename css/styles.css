@@ -337,6 +337,17 @@ header span {
   font-weight: 500;
   color: #1d512b;
 }
+header .phone-link {
+  font-family: "Spline Sans", sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: #275219;
+  transition: color 0.3s ease;
+}
+header .phone-link:hover {
+  color: #1d512b;
+}
 
 /* --------------------------- NAVIGATION STUFF GOES HERE --------------------------- */
 /* --------------------------- MAIN --------------------------- */
