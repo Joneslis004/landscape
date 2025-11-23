@@ -335,7 +335,7 @@ header {
 header span {
   font-size: 1.6rem;
   font-weight: 500;
-  color: #2F6B3F;
+  color: #1d512b;
 }
 
 /* --------------------------- NAVIGATION STUFF GOES HERE --------------------------- */
@@ -343,7 +343,7 @@ header span {
 main h1 {
   padding: 1rem 10px 0.5rem 10px;
   font-size: 1.5rem;
-  color: #2F6B3F;
+  color: #1d512b;
   font-weight: 500;
 }
 main p {
@@ -380,7 +380,7 @@ div.cards {
 }
 div.cards section {
   position: relative;
-  border: 5px solid #2F6B3F;
+  border: 5px solid #1d512b;
   border-radius: 5px;
 }
 div.cards section img {
@@ -399,7 +399,7 @@ div.cards section h2 {
   left: 10px;
   color: white;
   font-weight: 300;
-  background: #2F6B3F;
+  background: #1d512b;
   padding: 5px 10px;
   margin: 0;
   z-index: 10;
@@ -431,7 +431,7 @@ div.reviews section img {
 
 /* --------------------------- FOOTER --------------------------- */
 #footerWrapper {
-  background-color: #2F6B3F;
+  background-color: #1d512b;
 }
 
 footer {
@@ -464,7 +464,7 @@ footer a {
     font-size: 1.6rem;
   }
   #theNav {
-    background-color: #d9920f;
+    background-color: rgb(108, 108, 108);
     height: 0;
     overflow: hidden;
     list-style-type: none;
@@ -499,7 +499,7 @@ footer a {
   .parent ul {
     list-style-type: none;
     padding: 0;
-    background-color: #2F6B3F;
+    background-color: #1d512b;
     display: none;
   }
   .parent:hover ul {
@@ -512,7 +512,7 @@ footer a {
     display: none;
   }
   #theNav {
-    background-color: #d9920f;
+    background-color: rgb(108, 108, 108);
     display: flex;
     list-style-type: none;
     margin: 0;
@@ -542,7 +542,7 @@ footer a {
     background-color: #8BC28A;
   }
   #theNav li ul {
-    background-color: #2F6B3F;
+    background-color: #1d512b;
     list-style-type: none;
     padding: 0;
     position: absolute;
