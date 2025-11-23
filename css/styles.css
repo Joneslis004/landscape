@@ -545,16 +545,6 @@ footer a {
     margin: 10px;
     gap: 10px;
   }
-  .card h2 {
-    position: absolute;
-    top: 10px; /* distance from the top */
-    left: 10px; /* distance from the left */
-    color: white; /* so it stands out on a dark bg or image */
-    background: rgba(0, 0, 0, 0.5); /* optional semi-transparent bg for readability */
-    padding: 5px 10px;
-    margin: 0;
-    z-index: 10;
-  }
   div.reviews section {
     display: grid;
     grid-template-columns: 140px auto;
