@@ -440,6 +440,7 @@ footer {
   color: #D6D6D6;
   text-align: center;
   line-height: 150%;
+  font-weight: 500;
 }
 footer a {
   color: #D6D6D6;
@@ -469,12 +470,14 @@ footer a {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    font-weight: 500;
   }
   #theNav li a {
     display: block;
     padding: 0.75rem 2vw;
     font-size: 14px;
     color: white;
+    font-weight: 500;
     text-decoration: none;
     border-top: 1px solid rgba(0, 0, 0, 0.2);
   }
@@ -516,6 +519,7 @@ footer a {
     padding: 0;
     z-index: 9999;
     position: relative;
+    font-weight: 500;
   }
   #theNav li {
     border-right: 1px solid rgba(0, 0, 0, 0.1);

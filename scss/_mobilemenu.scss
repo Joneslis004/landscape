@@ -26,12 +26,14 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+    font-weight: $normalWeight;
 
     li a {
         display: block;
         padding: .75rem 2vw;
         font-size: 14px;
         color: white;
+        font-weight: $normalWeight;
         text-decoration: none;
         border-top: 1px solid rgba(0, 0, 0, .2);
     }
